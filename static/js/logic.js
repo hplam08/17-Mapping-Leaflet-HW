@@ -113,7 +113,7 @@ function createMap(earthquakes) {
 
   // Add legend
   var legend = L.control({ position: "bottomright" });
-  legend.onAdd = function(map) {
+  legend.onAdd = function() {
     var div = L.DomUtil.create("div", "info legend");
     var grades = [1,2,3,4,5]
     var labels = [];
