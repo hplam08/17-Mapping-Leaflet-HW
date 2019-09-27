@@ -129,6 +129,6 @@ function createMap(earthquakes) {
   };
 
   // 7.7 Adding legend to the map
-  legend.addTo(map);``
+  legend.addTo(map);
 
 }
